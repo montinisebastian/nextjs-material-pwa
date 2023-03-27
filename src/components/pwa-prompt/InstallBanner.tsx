@@ -20,7 +20,11 @@ export function InstallBanner({
         okText="Instalar"
       >
         <p>
+<<<<<<< Updated upstream
           La instalación de la aplicación Material casi no utiliza
+=======
+          La instalación de la aplicación Leroma System casi no utiliza
+>>>>>>> Stashed changes
           almacenamiento y proporciona una rápida forma de iniciarlo desde la
           pantalla de inicio.
         </p>
