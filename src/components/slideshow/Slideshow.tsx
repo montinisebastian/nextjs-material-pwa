@@ -63,7 +63,7 @@ export function Slideshow({ slides }: { slides: ReactNode[] }) {
           }}
         >
           <FinishSlideshowBtn
-            text={index === totalSlides - 1 ? `Empecemos` : 'Siguiente'}
+            text={index === totalSlides - 1 ? `Empecemos` : ''}
           />
           <Pagination
             dots={3}
