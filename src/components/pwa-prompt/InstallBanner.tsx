@@ -16,12 +16,13 @@ export function InstallBanner({
         onCancel={onCancel}
         onOk={onOk}
         show={show}
-        title="Install"
-        okText="Install"
+        title="Instalar"
+        okText="Instalar"
       >
         <p>
-          Installing Material App uses almost no storage and provides a quick
-          way to launch it from the home screen.
+          La instalación de la aplicación Material casi no utiliza
+          almacenamiento y proporciona una rápida forma de iniciarlo desde la
+          pantalla de inicio.
         </p>
       </PWANotification>
     </Box>
