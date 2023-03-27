@@ -1,13 +1,20 @@
-import { Typography, Box, Paper, List, Divider, ListItemIcon } from '@mui/material'
+import {
+  Typography,
+  Box,
+  Paper,
+  List,
+  Divider,
+  ListItemIcon
+} from '@mui/material'
 import AccountBoxIcon from '@mui/icons-material/AccountBox'
-import { SettingsProfile } from 'components'
+
 import GrillaTachosEnCamara from 'components/consultarTachosEnCamara'
-import { useRouter } from 'next/router'
-import { ShellTitle } from 'components'
+
 import { AppLayout } from 'components/layout'
 import { MobileMenuItem } from 'components/sidebars'
+import { ReactNode } from 'react'
 export default function consultarTachosEnCamara() {
-  const router = useRouter()
+  // eslint-disable-next-line react-hooks/rules-of-hooks
 
   return (
     <>
@@ -18,24 +25,21 @@ export default function consultarTachosEnCamara() {
       </Paper>
 
       <MainContent />
-
     </>
   )
 }
-
 
 function MainContent() {
   return (
     <>
       <Paper>
         <Box p={2}>
-         <GrillaTachosEnCamara/>
+          <GrillaTachosEnCamara />
         </Box>
       </Paper>
     </>
   )
 }
-
 
 consultarTachosEnCamara.layout = AppLayout
 
@@ -62,7 +66,9 @@ consultarTachosEnCamara.desktopSidebar = function SettingsMenuDesktop(
   )
 }
 
-consultarTachosEnCamara.mobileSidebar = function SettingsMenuMobile(defaultItems: ReactNode) {
+consultarTachosEnCamara.mobileSidebar = function SettingsMenuMobile(
+  defaultItems: ReactNode
+) {
   return (
     <>
       <List>{defaultItems}</List>
