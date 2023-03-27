@@ -13,6 +13,12 @@ export function DefaultMenuItems({
       <AppMenuItem link={{ href: '/app/configuraciones' }} onClick={onClick}>
         Configuraciones
       </AppMenuItem>
+      <AppMenuItem
+        link={{ href: '/app/consultarTachosEnCamara' }}
+        onClick={onClick}
+      >
+        Consultar Tachos En Camara
+      </AppMenuItem>
       <AppMenuItem link={{ href: '/onboarding' }} onClick={onClick}>
         Inducciones
       </AppMenuItem>

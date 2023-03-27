@@ -24,7 +24,7 @@ export function SettingsProfile() {
   return (
     <form autoComplete="off">
       <Card>
-        <CardHeader subheader="Update your profile" title="Profile" />
+        <CardHeader subheader="Update your profile" title="Perfi" />
         <Divider />
         <CardContent>
           <Grid container spacing={3}>

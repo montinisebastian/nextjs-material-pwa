@@ -30,6 +30,8 @@
     "@mui/material": "^5.11.14",
     "@mui/styles": "^5.11.13",
     "@mui/system": "^5.11.14",
+    "@mui/x-data-grid": "^6.0.3",
+    "@mui/x-data-grid-generator": "^6.0.3",
     "aws-amplify": "^5.0.22",
     "js-cookie": "^3.0.1",
     "next": "^13.2.4",
