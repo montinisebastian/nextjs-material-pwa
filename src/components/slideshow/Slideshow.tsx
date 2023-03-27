@@ -8,7 +8,7 @@ import { FinishSlideshowBtn } from './AppBtn'
 
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews)
 
-const backgroundColors = ['blue', 'red', 'green']
+const backgroundColors = ['black', 'red', 'green']
 
 // style for every slide
 export const slideStyles = css`

@@ -18,7 +18,7 @@ export default function Settings() {
     <>
       <Paper>
         <Box m={2} pt={2} pb={2}>
-          <Typography variant="h6">Settings</Typography>
+          <Typography variant="h6">Configuraciones</Typography>
         </Box>
       </Paper>
       {router.query.section === 'profile' ? (
@@ -75,7 +75,7 @@ Settings.desktopSidebar = function SettingsMenuDesktop(
           }
           link={{ href: '/app/settings?section=profile', shallow: true }}
         >
-          Profile
+          Perfil
         </MobileMenuItem>
       </List>
     </>
@@ -96,7 +96,7 @@ Settings.mobileSidebar = function SettingsMenuMobile(defaultItems: ReactNode) {
           }
           link={{ href: '/app/settings?section=profile', shallow: true }}
         >
-          Profile
+          Perfil
         </MobileMenuItem>
       </List>
     </>

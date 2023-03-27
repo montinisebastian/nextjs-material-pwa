@@ -42,7 +42,7 @@ export function DisplayModeNotification() {
         onClose={handleClose}
         severity="info"
       >
-        App Display Mode: {displayMode?.toUpperCase()}
+        Modo de visualización de la aplicación: {displayMode?.toUpperCase()}
       </Alert>
     </Snackbar>
   )

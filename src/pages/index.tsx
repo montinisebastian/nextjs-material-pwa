@@ -42,9 +42,6 @@ export default function Index() {
           height: '100vh'
         }}
       >
-        <h1 css={{ fontSize: '2.5rem', textAlign: 'center', marginBottom: 0 }}>
-          Next.js Material PWA
-        </h1>
         <div
           css={{
             maxWidth: '300px',
@@ -64,12 +61,13 @@ export default function Index() {
           }}
         >
           <p>
-            When you launch the app for the first time, there will be a simple
-            onboarding slideshow, that will only be shown once.
+            Cuando inicie la aplicación por primera vez, habrá una presentación
+            de diapositivas de incorporación simple, que solo se mostrará una
+            vez.
           </p>
           <p>
-            If you like to see the onboarding again, hold down the{' '}
-            <strong>ctrl/command</strong> when launching the app.
+            Si desea volver a ver la incorporación, mantenga presionada la tecla{' '}
+            <strong>ctrl/command</strong> al iniciar la aplicación.
           </p>
         </div>
         <a
@@ -77,7 +75,7 @@ export default function Index() {
           css={{
             marginTop: 14,
             padding: 12,
-            backgroundColor: 'blue',
+            backgroundColor: '#dbba78',
             borderRadius: 8,
             color: '#fff',
             fontSize: '1rem',
@@ -87,7 +85,7 @@ export default function Index() {
             userSelect: 'none'
           }}
         >
-          Launch Application
+          Lanzar Aplicación
         </a>
       </div>
     </>

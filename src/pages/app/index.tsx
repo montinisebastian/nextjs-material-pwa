@@ -8,7 +8,7 @@ export default function AppIndex() {
       <ShellTitle title="Home" />
       <Paper>
         <Box m={2} pt={2} pb={2}>
-          <Typography variant="h6">Home</Typography>
+          <Typography variant="h6">Inicio</Typography>
         </Box>
       </Paper>
       <Paper>

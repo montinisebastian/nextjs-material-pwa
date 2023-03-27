@@ -13,8 +13,8 @@ export function SlideOne() {
           height={300}
         />
         <div css={{ textAlign: 'center' }}>
-          <h1>Progressive Web App</h1>
-          <p>Hint: Swipe anywhere to switch slides</p>
+          <h1>Bienvenido a Leroma System</h1>
+          <p>Sugerencia: desliza el dedo para continuar</p>
         </div>
       </div>
     </div>
