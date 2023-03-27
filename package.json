@@ -76,7 +76,6 @@
     "next-compose-plugins": "^2.2.1",
     "prettier": "^2.8.7",
     "typescript": "^5.0.2",
-    "workbox-webpack-plugin": "^6.5.4",
-    "zx": "^7.2.1"
+    "workbox-webpack-plugin": "^6.5.4"
   }
 }
